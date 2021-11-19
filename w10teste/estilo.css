@@ -194,5 +194,8 @@ ul{
     padding: 22px;
 }
 #contador{
-    background: #000000d9;
+    background:rgba(255, 255, 255, 0);
+    position: absolute;
+    display: inline-block;
+    z-index: +1;
 }
