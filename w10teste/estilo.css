@@ -1,0 +1,198 @@
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(255, 255, 255, 0.624);
+}
+#barradetarefas{
+    background-color: rgba(3, 4, 9, 0.809);
+}
+.popbarra{
+    position: absolute;
+    display:none;
+    top: 800px;
+    background-color: #00000099;
+}
+.popbarraon{
+    display: inline-grid;
+    align-content: center;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+    opacity: 1;
+    transition: 0.5s;
+    width: 34px;
+    height: 156px;
+    position: absolute;
+    top: 595px;
+}
+#datas{
+    display: inline-block;
+    left: 91%;
+    position: absolute;
+    margin-top: 10px;
+    width: 61px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.botao{
+    background-color:transparent;
+    appearance: none;
+    padding-top: 7px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    filter: saturate(0.0) contrast(10);
+    transition: 1s;
+}
+.botao:hover{
+    background-color:rgba(255, 255, 255, 0.301);
+    border: 2px solid rgba(245, 245, 245, 0.063);
+}
+#w10main{
+    margin-block-end: 6px;
+    width: 18px;
+}
+#w10mainINV{
+    margin-block-end: 6px;
+    width: 18px;
+    filter: invert(1.0);
+}
+#horas{
+    color: white;
+    font-size: 10px;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    text-align: center;
+}
+#text{
+    color: white;
+    font-size: 7px;
+    margin-block-start: 0%;
+    margin-block-end: 5%;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+nav{
+ 
+}
+ul{
+    display: grid;
+}
+.background{
+    background-color: rgb(27, 25, 37);
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.wallpaper{
+    width: 100%;
+    height: 750px;
+}
+.buscar{
+    position: relative;
+    top: -8px;
+    color: #f9f6f6;
+    padding: 3px;
+    border-left: 0px;
+    border-radius: 10px;
+    background-color: #fffbfba6;
+    display: none;
+    transition: 2s;
+    
+}
+.fadein{
+    position: absolute;
+    top: 800px;
+    width: 0px;
+    height: 0px;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.buscaron{
+    transition: 0.5s;
+    position: relative;
+    top: -8px;
+    display: inline-block;
+    color: #f9f6f6;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #fffbfba6;
+    box-shadow: inset 0px 2px 4px 0px black;
+    width:177px;
+}
+#gridpop{
+    width: 480px;
+    height: 480px;
+}
+#sobrepor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    color: white;
+    font-size: 12px;
+    background: rgb(38 45 65 / 63%);
+    padding: 8px;
+}
+#meioli{
+    margin: 2px 0px 2px 0px;
+    padding: 2px 0px 2px 0px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 1px solid  rgb(214, 214, 214);
+}
+.off{
+    display: none;
+}
+.offlinks{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+#pesquisa{
+    position:absolute;
+    display: inline-flex;
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    top: 600px;
+    /* background-color: black; */
+    left: 80px;
+}
+.tabelapesquisasoff{
+    display: none;
+}
+.tabelapesquisason{
+    display: inline-flex;
+}
+.inputvalor{
+
+}
+#valoradd{
+    word-wrap: break-word;
+}
+#local{
+    display: inline-block;
+    transition: 2s;
+}
+.changefade{
+    opacity: 0;
+    transition: 5000s;
+}
+.barrarolloff{
+    display: none;
+}
+.barraroll{
+    float: right;
+    position: fixed;
+    display: inline-block;
+    top: 685px;
+    left: 1400px;
+    background: #51616d;
+    padding: 22px;
+}
+#contador{
+    background: #000000d9;
+}
